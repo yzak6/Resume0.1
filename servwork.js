@@ -20,17 +20,10 @@ self.addEventListener('fetch', event => {
     );
 });
 
-self.addEventListener('activate', event => {
-    const cacheWhitelist = [CACHE_NAME];
-
+self.addEventListener('install', event => {
     event.waitUntil(
-    caches.keys()
-        .then(cacheNames => Promise.all(
-        cacheNames.map(cacheName => {
-            if (!cacheWhitelist.includes(cacheName)) {
-            return caches.delete(cacheName);
-            }
-        })
-        ))
+        caches.open(CACHE_NAME)
+            .then(cache => cache.addAll(urlsToCache))
+            .catch(error => console.error('Cache addAll error:', error))
     );
 });
