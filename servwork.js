@@ -1,9 +1,9 @@
 //asignar un nombre y versión al cache
 const CACHE_NAME = 'v1_cache_Mipagina';
 const urlsToCache = [
-    '/yzak6.github.io/Resume0.1/script.js',
-    '/yzak6.github.io/Resume0.1/style.css',
-    '/yzak6.github.io/Resume0.1/index.html'
+    '/Resume0.1/script.js',
+    '/Resume0.1/style.css',
+    '/Resume0.1/index.html'
   ];
 
 self.addEventListener('install', event => {
