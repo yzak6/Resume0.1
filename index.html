@@ -18,7 +18,7 @@
     <link rel="icon" href="img/favicon.png" type="image/png">
 
     <script>
-            if ("servwork" in navigator) {
+            if ("serviceWorker" in navigator) {
                 navigator.serviceWorker.register("/servwork.js")
                     .then(registration => {
                         console.log("Service Worker registrado con éxito:", registration);
