@@ -36,8 +36,7 @@
       }
     ],
     "serviceworker": {
-        "src": "servwork.js",
-        "scope": "/Resume0.1/"
+        "src": "/servwork.js",
     }
   }
   
