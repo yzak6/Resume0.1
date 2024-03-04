@@ -11,27 +11,27 @@
     "icons": [
       {
         "src": "img/favicon.png",
-        "sizes": "192x192",
+        "sizes": "205x198",
         "type": "image/png"
       },
       {
         "src": "img/like.jpg",
-        "sizes": "192x192",
+        "sizes": "420x420",
         "type": "image/png"
       },
       {
         "src": "img/mac.jpg",
-        "sizes": "192x192",
+        "sizes": "420x420",
         "type": "image/png"
       },
         {
         "src": "img/peace.jpg",
-        "sizes": "192x192",
+        "sizes": "420x420",
         "type": "image/png"
       },
         {
         "src": "img/yogif.gif",
-        "sizes": "192x192",
+        "sizes": "504x360",
         "type": "image/png"
       }
     ]
