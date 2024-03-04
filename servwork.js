@@ -8,10 +8,12 @@ const urlsToCache = [
 
 self.addEventListener('install', event => {
     event.waitUntil(
-    caches.open(CACHE_NAME)
-        .then(cache => cache.addAll(urlsToCache))
+        caches.open(CACHE_NAME)
+            .then(cache => cache.addAll(urlsToCache))
+            .catch(error => console.error('Cache addAll error:', error))
     );
 });
+
 
 self.addEventListener('fetch', event => {
     event.respondWith(
@@ -20,10 +22,17 @@ self.addEventListener('fetch', event => {
     );
 });
 
-self.addEventListener('install', event => {
+self.addEventListener('activate', event => {
+    const cacheWhitelist = [CACHE_NAME];
+
     event.waitUntil(
-        caches.open(CACHE_NAME)
-            .then(cache => cache.addAll(urlsToCache))
-            .catch(error => console.error('Cache addAll error:', error))
+    caches.keys()
+        .then(cacheNames => Promise.all(
+        cacheNames.map(cacheName => {
+            if (!cacheWhitelist.includes(cacheName)) {
+            return caches.delete(cacheName);
+            }
+        })
+        ))
     );
 });
