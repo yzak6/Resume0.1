@@ -34,6 +34,10 @@
         "sizes": "504x360",
         "type": "image/png"
       }
-    ]
+    ],
+    "serviceworker": {
+        "src": "/servwork.js",
+        "scope": "/Resume0.1/"
+    }
   }
   
