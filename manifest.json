@@ -1,4 +1,4 @@
-{
+,,,,{
     "name": "Portafolio de Isaac Peña",
     "short_name": "Portafolio Isaac",
     "description": "Portafolio de Rubén Isaac Peña Monterrubio en español",
@@ -11,6 +11,26 @@
     "icons": [
       {
         "src": "img/favicon.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "img/like.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "img/mac.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+        {
+        "src": "img/peace.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+        {
+        "src": "img/yogif.png",
         "sizes": "192x192",
         "type": "image/png"
       }
