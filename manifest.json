@@ -2,7 +2,7 @@
     "name": "Portafolio de Isaac Peña",
     "short_name": "Portafolio Isaac",
     "description": "Portafolio de Rubén Isaac Peña Monterrubio en español",
-    "start_url": "/index",
+    "start_url": "/index.html",
     "display": "browser",
     "background_color": "#ffffff",
     "theme_color": "#0F2E51",
