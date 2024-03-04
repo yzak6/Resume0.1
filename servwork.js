@@ -2,7 +2,6 @@
 //asignar un nombre y versión al cache
 const CACHE_NAME = 'v1_cache_Mipagina',
   urlsToCache = [
-    './',
     'https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Lexend+Deca:wght@100..900&display=swap',
     'https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap',
     'https://fonts.googleapis.com',
