@@ -15,22 +15,22 @@
         "type": "image/png"
       },
       {
-        "src": "img/like.png",
+        "src": "img/like.jpg",
         "sizes": "192x192",
         "type": "image/png"
       },
       {
-        "src": "img/mac.png",
+        "src": "img/mac.jpg",
         "sizes": "192x192",
         "type": "image/png"
       },
         {
-        "src": "img/peace.png",
+        "src": "img/peace.jpg",
         "sizes": "192x192",
         "type": "image/png"
       },
         {
-        "src": "img/yogif.png",
+        "src": "img/yogif.gif",
         "sizes": "192x192",
         "type": "image/png"
       }
